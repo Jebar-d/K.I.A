@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body.khyle-page {
+    font-family: 'General Sans', sans-serif;
+    line-height: 1.6;
+   
+    background-color: var(--clr-light); /* Updated to use --clr-light */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .khyle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .hyle__ft a{
+    color: var(--clr-indigo); /* Updated to use --clr-indigo */
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  /* Activities Section */
+  .activities {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1200px;
+  }
+  
+  .activities__title {
+    font-size: 1.8rem;
+    color: var(--clr-indigo); /* Updated to use --clr-indigo */
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .activities__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Schoolworks Section */
+  .schoolworks {
+    padding: 1rem;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .schoolworks__title {
+    font-size: 1.8rem;
+    color: var(--clr-indigo); /* Updated to use --clr-indigo */
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .schoolworks__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

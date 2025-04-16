@@ -1,0 +1,188 @@
+.alert-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.alert-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.alert-btn:active {
+    transform: scale(0.95);
+}
+
+.change-text-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.change-text-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.change-text-btn:active {
+    transform: scale(0.95);
+}
+
+.change-bg-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.change-bg-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.change-bg-btn:active {
+    transform: scale(0.95);
+}
+
+.reset-bg-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reset-bg-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.reset-bg-btn:active {
+    transform: scale(0.95);
+}
+
+.toggle-element-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-element-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.toggle-element-btn:active {
+    transform: scale(0.95);
+}
+
+.counter-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.counter-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.counter-btn:active {
+    transform: scale(0.95);
+}
+
+.font-size-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.font-size-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.font-size-btn:active {
+    transform: scale(0.95);
+}
+
+.date-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.date-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.date-btn:active {
+    transform: scale(0.95);
+}
+
+.reset-date-btn {
+    background-color: var(--clr-indigo);
+    color: white;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reset-date-btn:hover {
+    background-color: #5d0999;
+    transform: scale(1.05);
+}
+
+.reset-date-btn:active {
+    transform: scale(0.95);
+}

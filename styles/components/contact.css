@@ -1,0 +1,88 @@
+/* Contact Page Styles */
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: var(--clr-slate800); /* Use slate800 for text */
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: var(--clr-indigo); /* Indigo for headings */
+}
+
+.contact-header p {
+    font-size: 1rem;
+    color: var(--clr-slate600); /* Slate600 for subtext */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--clr-slate800); /* Slate800 for labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--clr-slate400); /* Slate400 border */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--clr-indigo); /* Indigo for focus */
+    outline: none;
+}
+
+.contact__btn {
+    background-color: var(--clr-indigo); /* Indigo for button */
+    color: var(--clr-light); /* Light text */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact__btn:hover {
+    background-color: var(--clr-rose); /* Rose on hover */
+}
+
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: var(--clr-slate600); /* Slate600 for contact info */
+}
+
+.contact-info a {
+    color: var(--clr-indigo); /* Indigo for links */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
