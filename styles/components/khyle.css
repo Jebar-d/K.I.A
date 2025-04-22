@@ -85,3 +85,17 @@
     gap: 1rem;
     padding: 1rem; 
   }
+  table {
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid RED;
+    padding: 10px;
+    height: 100px;
+    font-size: 25px;
+    width: 14.28%;
+  }
+  th {
+    background-color: red;
+    color: white;
+  }
