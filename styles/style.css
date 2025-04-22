@@ -96,3 +96,18 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--clr-rose);
   outline: 1px solid var(--clr-rose);
 }
+
+.calendar-table {
+  border-collapse: collapse;
+}
+.calendar-header, .calendar-cell {
+  border: 1px solid gray;
+  padding: 10px;
+  height: 50px;
+  font-size: 18px;
+  width: 14.28%;
+}
+.calendar-header {
+  background-color: purple;
+  color: white;
+}
