@@ -114,3 +114,18 @@
     background-color: purple;
     color: white;
   }
+
+  .november-calendar-table {
+    border-collapse: collapse;
+  }
+  .november-calendar-header, .november-calendar-cell {
+    border: 1px solid pink;
+    padding: 10px;
+    height: 50px;
+    font-size: 18px;
+    width: 14.28%;
+  }
+  .november-calendar-header {
+    background-color: pink;
+    color: beige;
+  }
